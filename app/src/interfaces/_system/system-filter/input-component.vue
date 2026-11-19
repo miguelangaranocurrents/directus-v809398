@@ -212,6 +212,9 @@ defineExpose({
 	justify-content: center;
 	color: var(--theme--primary);
 	font-family: var(--theme--fonts--monospace--font-family);
+	min-inline-size: 0;
+	max-inline-size: 100%;
+	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	cursor: pointer;
